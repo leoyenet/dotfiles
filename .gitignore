@@ -10,6 +10,7 @@
 # Electron runtime data (the T3 Code browser profile).
 /t3code/
 /t3code-v2/
+./Logic/
 
 # Machine-local state, credentials, telemetry, and desktop sessions.
 /dconf/
