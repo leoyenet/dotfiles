@@ -1,0 +1,76 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette (cmd-shift-p / ctrl-shift-p)
+{
+  "soft_wrap": "editor_width",
+  "icon_theme": {
+    "mode": "dark",
+    "light": "Zed (Default)",
+    "dark": "Zed (Default)"
+  },
+  "relative_line_numbers": "enabled",
+  "gutter": {
+    "line_numbers": true
+  },
+  "agent_servers": {
+    "codex-acp": {
+      "default_config_options": {
+        "reasoning_effort": "medium"
+      },
+      "type": "registry"
+    }
+  },
+  "cli_default_open_behavior": "new_window",
+  "vim": {
+    "toggle_relative_line_numbers": false
+  },
+  "autosave": "on_focus_change",
+  "vim_mode": true,
+  "show_whitespaces": "all",
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "gpt-6.1-sol",
+      "enable_thinking": true,
+      "effort": "medium"
+    },
+    "favorite_models": [],
+    "model_parameters": []
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 15,
+  "theme": {
+    "mode": "dark",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha",
+  },
+  "languages":{
+    "Python": {
+      "format_on_save": "on",
+      "language_servers": [
+        "ty",
+        "!basedpyright",
+      ],
+      "formatter": {
+        "external": {
+          "command": "ruff",
+          "arguments": ["format", "--stdin-filename", "{buffer_path}", "-"]
+        }
+      }
+    },
+    "C": {
+      "format_on_save": "on",
+      "tab_size": 4,
+    },
+    "C++": {
+      "format_on_save": "on",
+      "tab_size": 4
+    },
+  }
+
+}

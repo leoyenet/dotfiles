@@ -1,0 +1,63 @@
+# Browser profiles: keep portable customizations, ignore browsing data.
+/zen/*
+!/zen/*/
+/zen/*/*
+!/zen/*/user.js
+!/zen/*/chrome/
+!/zen/*/zen-keyboard-shortcuts.json
+!/zen/*/zen-themes.json
+
+# Electron runtime data (the T3 Code browser profile).
+/t3code/
+/t3code-v2/
+
+# Machine-local state, credentials, telemetry, and desktop sessions.
+/dconf/
+/go/telemetry/
+/pulse/cookie
+/session/
+/spotify/
+/fish/fish_variables
+/fish/fish_history
+/fish/fish_read_history
+/micro/buffers/
+/micro/backups/
+/micro/Undo/
+/spicetify/Backup/
+/spicetify/backups/
+/spicetify/Extracted/
+
+# Credentials and local environment overrides; keep shareable examples.
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_ed25519
+/gh/hosts.yml
+/glab-cli/config.yml
+/rclone/rclone.conf
+
+# Local desktop paths and recently opened files.
+/user-dirs.dirs
+/QtProject.conf
+/gtk-3.0/bookmarks
+/gtk-4.0/bookmarks
+/recently-used.xbel
+
+# Generated caches and logs.
+**/.cache/
+**/node_modules/
+*.log
+*.log.*
+
+# Editor temporary files.
+*.swp
+*.swo
+*~
+/nvim/doc/tags

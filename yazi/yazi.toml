@@ -1,0 +1,26 @@
+[mgr]
+ratio = [1, 2, 5]
+sortby = "natural"
+[preview]
+wrap = "yes"
+image_quality = 90
+[opener]
+play = [
+	{ run = "vlc %s", orphan = true, for = "unix" },
+]
+edit = [
+	{ run = "zeditor %s", block = true, for = "unix" },
+]
+open = [
+	{ run = "xdg-open %s1", desc = "Open" },
+]
+[open]
+prepend_rules = [
+	{ url = "*.json", use = "edit" },
+	{ url = "*.py", use = "edit" },
+	{ url = "*.c", use = "edit" },
+	{ url = "*.cpp", use = "edit" },
+	{ url = "*.h", use = "edit" },
+	{ url = "*.lua", use = "edit" },
+	{ url = "*.html", use = [ "open", "edit" ] },
+]

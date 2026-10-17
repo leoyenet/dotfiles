@@ -1,0 +1,6 @@
+{
+  "runtime.version": "Lua 5.5",
+  "runtime.path": ["?.lua", "?/init.lua", "hypr/?.lua", "hypr/?/init.lua"],
+  "workspace.library": ["/usr/share/hypr/stubs"],
+  "workspace.checkThirdParty": false
+}
