@@ -1,0 +1,24 @@
+default:
+    @just --list
+
+# Start Wi-Fi hotspot
+hotspot-on:
+    nmcli connection up Hotspot
+
+# Stop Wi-Fi hotspot
+hotspot-off:
+    nmcli connection down Hotspot
+
+# Restart hotspot
+hotspot-restart:
+    nmcli connection down Hotspot
+    nmcli connection up Hotspot
+
+# Show hotspot and network status
+hotspot-status:
+    nmcli device status
+
+# Create hotspot
+hotspot-create:
+    nmcli device wifi hotspot ifname wlan0 ssid t14sg1 password "I2C62hQzpStwtp"
+

@@ -140,11 +140,11 @@ hl.bind("ALT + " .. digitCode(1), hl.dsp.focus({ monitor = MONITOR1 ~= "" and MO
 hl.bind("ALT + " .. digitCode(2), hl.dsp.focus({ monitor = MONITOR2 ~= "" and MONITOR2 or "1" }), { description = "Focus monitor 2" })
 hl.bind("ALT + " .. digitCode(3), hl.dsp.focus({ monitor = MONITOR3 ~= "" and MONITOR3 or "2" }), { description = "Focus monitor 3" })
 
--- Focus on workspace number
--- Absolute
+-- Shared workspaces: bring the selected workspace onto the focused monitor.
+-- If it is visible on another monitor, swap the two active workspaces.
 for i = 1, NUM_WPM do
     local key = i % 10
-    hl.bind(mainMod .. " + " .. digitCode(key), hl.dsp.focus({ workspace = i }), { description = "Focus workspace " .. i })
+    hl.bind(mainMod .. " + " .. digitCode(key), hl.dsp.focus({ workspace = i, on_current_monitor = true }), { description = "Bring workspace " .. i .. " to this monitor" })
 end
 
 -- Relative
@@ -165,7 +165,7 @@ hl.bind(mainMod .. " + CONTROL + mouse_up",   hl.dsp.focus({ workspace = "m-1" }
 hl.bind(mainMod .. " + CONTROL + mouse_down", hl.dsp.focus({ workspace = "m+1" }), { description = "Focus next workspace on this monitor" })
 
 -- custom workspaces
-hl.bind(mainMod .. " + G", hl.dsp.focus({ workspace = "name:gaming" }), { description = "Focus workspace name:gaming" })
+hl.bind(mainMod .. " + G", hl.dsp.focus({ workspace = "name:gaming", on_current_monitor = true }), { description = "Bring gaming workspace to this monitor" })
 hl.bind(mainMod .. " + SHIFT + G", hl.dsp.window.move({ workspace = "name:gaming" }), { description = "Move window to workspace name:gaming" })
 
 -- Special workspace (scratchpad)

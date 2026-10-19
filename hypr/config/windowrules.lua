@@ -46,6 +46,11 @@ hl.window_rule({
 })
 
 -- Apps
+hl.window_rule({ match = { class = "^(zen)$" }, workspace = "1" })
+hl.window_rule({ match = { class = "^(dev\\.zed\\.Zed)$" }, workspace = "2" })
+hl.window_rule({ match = { class = "^(com\\.t3tools\\.T3Code|t3code)$" }, workspace = "3" })
+hl.window_rule({ match = { class = "^(kitty)$" }, workspace = "4" })
+
 hl.window_rule({ match = { class = "^(.*\\.exe)$", float = true }, monitor = PRIMARY_MONITOR, center = true, fullscreen_state = 0 })
 hl.window_rule({ match = { class = "^(.*[Ll]auncher.*)$" }, float = true, monitor = PRIMARY_MONITOR })
 hl.window_rule({ match = { class = "^(vesktop|discord)$" }, monitor = PRIMARY_MONITOR })

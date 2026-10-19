@@ -9,6 +9,8 @@ set -Ux EDITOR nvim
 set -gx TERMINAL kitty
 set -x GPG_TTY (tty)
 
+alias jh='just --justfile ~/.config/just/justfile'
+
 abbr -a c clear
 abbr -a x exit
 abbr -a y yazi
