@@ -8,8 +8,19 @@
 -- })
 
 hl.monitor({
-    output    = MONITOR1,
-    mode      = "preferred",
-    position  = "auto",
-    scale     = "1.25",
+    output = MONITOR1,
+    disabled = false,
+    mode = "1920x1080@60.01Hz",
+    position = "3450x-50",
+    scale = 1.25,
+    cm = "srgb",
+})
+
+hl.monitor({
+    output = MONITOR2,
+    disabled = false,
+    mode = "1920x1080@60.00Hz",
+    position = "5000x-530",
+    scale = 1,
+    cm = "srgb",
 })

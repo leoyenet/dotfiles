@@ -8,7 +8,7 @@ CALCULATOR   = "gnome-calculator"
 
 -- Monitors
 MONITOR1 = "eDP-1"
-MONITOR2 = ""
+MONITOR2 = "DP-1"
 MONITOR3 = ""
 PRIMARY_MONITOR = MONITOR1
 
