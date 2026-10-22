@@ -1,5 +1,6 @@
 [mgr]
 prepend_keymap = [
+	{ on = [ "g", "z" ], run = 'shell --orphan -- kitty --directory "$PWD"', desc = "Open current folder in terminal", for = "unix" },
 	{ on = [ "g", "i" ], run = "cd ~/Pictures",  desc = "Go to Pictures", for = "unix" },
 	{ on = [ "g", "p" ], run = "cd ~/Projects", desc = "Go to Projects", for = "unix" },
 ]

@@ -7,6 +7,7 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "hard_tabs": false,
   "soft_wrap": "editor_width",
   "icon_theme": {
     "mode": "dark",
@@ -50,6 +51,11 @@
     "dark": "Catppuccin Mocha",
   },
   "languages":{
+    "Odin": {
+      "show_edit_predictions": false,
+      "format_on_save":"on",
+      "tab_size": 2
+    },
     "Python": {
       "format_on_save": "on",
       "language_servers": [
@@ -65,12 +71,13 @@
     },
     "C": {
       "format_on_save": "on",
-      "tab_size": 4,
+      "tab_size": 2,
     },
     "C++": {
       "format_on_save": "on",
-      "tab_size": 4
+      "tab_size": 2
     },
+
   }
 
 }

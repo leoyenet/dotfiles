@@ -1,0 +1,8 @@
+[
+  {
+    "context": "Workspace",
+    "bindings": {
+      "alt-r": ["task::Spawn", { "task_name": "just run" }]
+    }
+  }
+]
