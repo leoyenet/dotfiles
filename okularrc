@@ -7,19 +7,25 @@ ShowSidebar=false
 
 [Recent Files]
 File1[$e]=$HOME/Documents/opengl-explained.pdf
+File10[$e]=$HOME/Projects/stm32/ide/GPIO/GPIO-docs/dokumentacija.pdf
 File2[$e]=$HOME/Downloads/C_Programming_Complete_Cheat_Sheet.pdf
 File3[$e]=$HOME/Documents/VS_v1/C_Programming_Complete_Cheat_Sheet.pdf
 File4[$e]=$HOME/School/zvezneNakljucne.pdf
 File5[$e]=$HOME/School/V/DiskretneNakljucne.pdf
 File6[$e]=$HOME/School/V/Osnove_Kombinatorike.pdf
 File7[$e]=$HOME/Programming/RG/RG_v1/porocilo.pdf
+File8[$e]=$HOME/Programming/RG/RG_v2/docs/razlaga-piramide.pdf
+File9[$e]=$HOME/Programming/RG/RG_v2/llmPart2-docs/ocena-del-2.pdf
 Name1[$e]=opengl-explained.pdf
+Name10[$e]=dokumentacija.pdf
 Name2[$e]=C_Programming_Complete_Cheat_Sheet.pdf
 Name3[$e]=C_Programming_Complete_Cheat_Sheet.pdf
 Name4[$e]=zvezneNakljucne.pdf
 Name5[$e]=DiskretneNakljucne.pdf
 Name6[$e]=Osnove_Kombinatorike.pdf
 Name7[$e]=porocilo.pdf
+Name8[$e]=razlaga-piramide.pdf
+Name9[$e]=ocena-del-2.pdf
 
 [UiSettings]
 ColorScheme=noctalia

@@ -7,11 +7,13 @@
 !/zen/*/zen-keyboard-shortcuts.json
 !/zen/*/zen-themes.json
 
-# Electron runtime data (the T3 Code browser profile).
 /t3code/
 /t3code-v2/
 /Logic/
 /QtProject/
+/superProductivity/
+/blender/
+
 
 # Machine-local state, credentials, telemetry, and desktop sessions.
 /dconf/

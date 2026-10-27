@@ -130,6 +130,9 @@ hl.bind(mainMod .. " + V", hl.dsp.exec_cmd(noctCall .. "panel-toggle clipboard")
 -- Notifications
 hl.bind(mainMod .. " + A", hl.dsp.exec_cmd(noctCall .. "panel-toggle control-center notifications"), { description = "Open notifications" })
 
+-- Session
+hl.bind(mainMod .. " + SHIFT + Escape", hl.dsp.exec_cmd(noctCall .. "panel-toggle session"))
+
 -------------------------------
 -- 5. Workspaces and Monitors
 -------------------------------
