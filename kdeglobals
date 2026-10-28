@@ -30,7 +30,7 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:Complementary]
 BackgroundAlternate=39,40,57
@@ -42,9 +42,9 @@ ForegroundInactive=166,173,200
 ForegroundLink=180,190,254
 ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
-ForegroundNormal=228,208,251
+ForegroundNormal=209,171,253
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:Header]
 BackgroundAlternate=30,30,46
@@ -58,7 +58,7 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:Header][Inactive]
 BackgroundAlternate=49,50,68
@@ -72,7 +72,7 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:Selection]
 BackgroundAlternate=39,40,57
@@ -82,11 +82,11 @@ DecorationHover=203,166,247
 ForegroundActive=30,30,46
 ForegroundInactive=166,173,200
 ForegroundLink=180,190,254
-ForegroundNegative=187,16,64
-ForegroundNeutral=24,147,170
+ForegroundNegative=93,62,82
+ForegroundNeutral=62,87,102
 ForegroundNormal=30,30,46
-ForegroundPositive=24,147,170
-ForegroundVisited=205,211,254
+ForegroundPositive=62,87,102
+ForegroundVisited=180,190,254
 
 [Colors:Tooltip]
 BackgroundAlternate=30,30,46
@@ -100,12 +100,12 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:View]
 BackgroundAlternate=49,50,68
 BackgroundNormal=30,30,46
-DecorationFocus=228,208,251
+DecorationFocus=209,171,253
 DecorationHover=30,30,46
 ForegroundActive=203,166,247
 ForegroundInactive=166,173,200
@@ -114,10 +114,10 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [Colors:Window]
-BackgroundAlternate=109,16,218
+BackgroundAlternate=81,70,106
 BackgroundNormal=49,50,68
 DecorationFocus=203,166,247
 DecorationHover=203,166,247
@@ -128,10 +128,10 @@ ForegroundNegative=243,139,168
 ForegroundNeutral=137,220,235
 ForegroundNormal=205,214,244
 ForegroundPositive=137,220,235
-ForegroundVisited=205,211,254
+ForegroundVisited=180,190,254
 
 [General]
-ColorScheme=Noctalia
+ColorScheme=noctalia
 Name=noctalia
 TerminalApplication=kitty
 
@@ -159,9 +159,9 @@ View Style=DetailTree
 Dialog Size=611,480
 
 [WM]
-activeBackground=109,16,218
-activeBlend=228,208,251
-activeForeground=228,208,251
+activeBackground=81,70,106
+activeBlend=209,171,253
+activeForeground=209,171,253
 inactiveBackground=30,30,46
 inactiveBlend=166,173,200
 inactiveForeground=166,173,200

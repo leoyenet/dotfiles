@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "file_types": {
+    "Lua": ["luau", "lua"],
+  },
   "hard_tabs": false,
   "soft_wrap": "editor_width",
   "icon_theme": {
