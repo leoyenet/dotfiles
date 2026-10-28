@@ -91,6 +91,7 @@ hl.bind(mainMod .. " + period",     hl.dsp.exec_cmd(noctCall .. "panel-toggle la
 hl.bind(mainMod .. " + L",          hl.dsp.exec_cmd(noctCall .. "session lock"), { description = "Lock screen" })
 hl.bind(mainMod .. " + ALT + C",    hl.dsp.exec_cmd(noctCall .. "panel-toggle session"), { description = "Open session menu" })
 hl.bind(mainMod .. "+ F1",           hl.dsp.exec_cmd(noctCall .. "panel-toggle kenn/keybind-cheatsheet:cheatsheet"), { description = "Toggle keybind cheatsheet" })
+hl.bind(mainMod .. "+ N", hl.dsp.exec_cmd(noctCall .. "panel-toggle fel/quill:panel"))
 
 ---------------------------
 -- 3. Hardware Controls
