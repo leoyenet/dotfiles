@@ -1,32 +1,25 @@
-# Browser profiles: keep portable customizations, ignore browsing data.
-/zen/*
-!/zen/*/
-/zen/*/*
-!/zen/*/user.js
-!/zen/*/chrome/
-!/zen/*/zen-keyboard-shortcuts.json
-!/zen/*/zen-themes.json
+# Ignore everything unless explicitly kept below.
+/*
+!/.gitignore
+!/README.md
+!/.luarc.json
+!/mimeapps.list
+!/starship.toml
 
-/t3code/
-/t3code-v2/
-/Logic/
-/QtProject/
-/superProductivity/
-/blender/
+# Core application configs.
+!/fish/
+!/hypr/
+!/just/
+!/noctalia/
+!/nvim/
+!/spicetify/
+!/yazi/
+!/zed/
 
-
-# Machine-local state, credentials, telemetry, and desktop sessions.
-/dconf/
-/go/telemetry/
-/pulse/cookie
-/session/
-/spotify/
+# Machine-local state and generated application data.
 /fish/fish_variables
 /fish/fish_history
 /fish/fish_read_history
-/micro/buffers/
-/micro/backups/
-/micro/Undo/
 /spicetify/Backup/
 /spicetify/backups/
 /spicetify/Extracted/
@@ -46,13 +39,6 @@ id_ed25519
 /gh/hosts.yml
 /glab-cli/config.yml
 /rclone/rclone.conf
-
-# Local desktop paths and recently opened files.
-/user-dirs.dirs
-/QtProject.conf
-/gtk-3.0/bookmarks
-/gtk-4.0/bookmarks
-/recently-used.xbel
 
 # Generated caches and logs.
 **/.cache/

@@ -2,10 +2,10 @@
 
 My personal CachyOS desktop configuration, built around Hyprland and Noctalia with Catppuccin themes.
 
-- **Desktop:** Hyprland, Noctalia, GTK, and Qt themes
-- **Terminal and shell:** Kitty, Fish, and Starship
-- **Tools:** Neovim, Micro, Zed, Yazi, btop, and lazygit
-- **Apps:** Zen Browser customizations and Spicetify themes
+Tracked configs: Fish, Hyprland, Just, Noctalia, Neovim, Spicetify, Yazi, and Zed.
+The repository also keeps `.luarc.json`, `mimeapps.list`, and `starship.toml`.
+Everything else is ignored by default; add an exception to `.gitignore` to keep another config.
+Application history, caches, and backups remain ignored.
 
 ## Usage
 
