@@ -90,8 +90,6 @@ hl.bind(mainMod .. " + Space",      hl.dsp.exec_cmd(noctCall .. "panel-toggle la
 hl.bind(mainMod .. " + period",     hl.dsp.exec_cmd(noctCall .. "panel-toggle launcher /emo"), { description = "Open emoji picker" })
 hl.bind(mainMod .. " + L",          hl.dsp.exec_cmd(noctCall .. "session lock"), { description = "Lock screen" })
 hl.bind(mainMod .. " + ALT + C",    hl.dsp.exec_cmd(noctCall .. "panel-toggle session"), { description = "Open session menu" })
-hl.bind(mainMod .. "+ F1",           hl.dsp.exec_cmd(noctCall .. "panel-toggle kenn/keybind-cheatsheet:cheatsheet"), { description = "Toggle keybind cheatsheet" })
-hl.bind(mainMod .. "+ N", hl.dsp.exec_cmd(noctCall .. "panel-toggle fel/quill:panel"))
 
 ---------------------------
 -- 3. Hardware Controls
@@ -175,3 +173,10 @@ hl.bind(mainMod .. " + SHIFT + G", hl.dsp.window.move({ workspace = "name:gaming
 -- Special workspace (scratchpad)
 hl.bind(mainMod .. " + SHIFT + S", hl.dsp.window.move({ workspace = "special" }), { description = "Move window to scratchpad" })
 hl.bind(mainMod .. " + S",         hl.dsp.workspace.toggle_special(), { description = "Toggle scratchpad" })
+
+-------------------------------
+-- 6. Plugins
+-------------------------------
+hl.bind(mainMod .. "+ F1",           hl.dsp.exec_cmd(noctCall .. "panel-toggle kenn/keybind-cheatsheet:cheatsheet"), { description = "Toggle keybind cheatsheet" })
+hl.bind(mainMod .. "+ N", hl.dsp.exec_cmd(noctCall .. "panel-toggle fel/quill:panel"))
+hl.bind(mainMod .. "+ M", hl.dsp.exec_cmd(noctCall .. "panel-toggle dunarand/bookmarks:panel"))
